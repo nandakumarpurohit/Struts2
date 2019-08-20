@@ -9,5 +9,11 @@
 			<result name="success">/hello.jsp</result>
 			<result name="error">/error.jsp</result>
 		</action>
+		
+		<action name="register" class="com.demo.action.EmployeeAction" method="register">
+			<result name="success">/viewAll.jsp</result>
+			<result name="input">/register.jsp</result>
+		</action>
+		
 	</package>
 </struts>
